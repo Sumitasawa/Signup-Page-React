@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+     justify-content: space-between; 
+      color: white;
+  padding: 9px 24px;  
+  border-bottom: white 1px solid;
+
+  
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;                      
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #facc15;                 
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-size: large;
+}
